@@ -50,6 +50,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Kruti2uni.cs" />
+    <Compile Include="Processing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Processing.Designer.cs">
+      <DependentUpon>Processing.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SelectWordFile.cs">
@@ -90,6 +96,9 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Processing.resx">
+      <DependentUpon>Processing.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SelectWordFile.resx">
       <DependentUpon>SelectWordFile.cs</DependentUpon>
     </EmbeddedResource>

@@ -11,3 +11,13 @@ C:\Users\lenovo\Documents\Visual Studio 2010\Projects\WordKruti2Uni\WordKruti2Un
 C:\Users\lenovo\Documents\Visual Studio 2010\Projects\WordKruti2Uni\WordKruti2Uni\obj\x86\Release\ResGen.read.1.tlog
 C:\Users\lenovo\Documents\Visual Studio 2010\Projects\WordKruti2Uni\WordKruti2Uni\obj\x86\Release\ResGen.write.1.tlog
 C:\Users\lenovo\Documents\Visual Studio 2010\Projects\WordKruti2Uni\WordKruti2Uni\bin\Release\WordKruti2Uni.exe.config
+D:\wordkruti2uni\wordkruti2uni\WordKruti2Uni\bin\Release\WordKruti2Uni.exe.config
+D:\wordkruti2uni\wordkruti2uni\WordKruti2Uni\bin\Release\WordKruti2Uni.exe
+D:\wordkruti2uni\wordkruti2uni\WordKruti2Uni\bin\Release\WordKruti2Uni.pdb
+D:\wordkruti2uni\wordkruti2uni\WordKruti2Uni\obj\x86\Release\WordKruti2Uni.csprojResolveAssemblyReference.cache
+D:\wordkruti2uni\wordkruti2uni\WordKruti2Uni\obj\x86\Release\WordKruti2Uni.csproj.ResolveComReference.cache
+D:\wordkruti2uni\wordkruti2uni\WordKruti2Uni\obj\x86\Release\WordKruti2Uni.Processing.resources
+D:\wordkruti2uni\wordkruti2uni\WordKruti2Uni\obj\x86\Release\WordKruti2Uni.SelectWordFile.resources
+D:\wordkruti2uni\wordkruti2uni\WordKruti2Uni\obj\x86\Release\WordKruti2Uni.csproj.GenerateResource.Cache
+D:\wordkruti2uni\wordkruti2uni\WordKruti2Uni\obj\x86\Release\WordKruti2Uni.exe
+D:\wordkruti2uni\wordkruti2uni\WordKruti2Uni\obj\x86\Release\WordKruti2Uni.pdb

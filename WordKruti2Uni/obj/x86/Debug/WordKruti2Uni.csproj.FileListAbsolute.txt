@@ -1,12 +1,4 @@
-C:\Users\lenovo\documents\visual studio 2010\Projects\WordKruti2Uni\WordKruti2Uni\bin\Debug\WordKruti2Uni.exe
-C:\Users\lenovo\documents\visual studio 2010\Projects\WordKruti2Uni\WordKruti2Uni\bin\Debug\WordKruti2Uni.pdb
-C:\Users\lenovo\documents\visual studio 2010\Projects\WordKruti2Uni\WordKruti2Uni\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\lenovo\documents\visual studio 2010\Projects\WordKruti2Uni\WordKruti2Uni\obj\x86\Debug\WordKruti2Uni.csproj.ResolveComReference.cache
-C:\Users\lenovo\documents\visual studio 2010\Projects\WordKruti2Uni\WordKruti2Uni\obj\x86\Debug\WordKruti2Uni.exe
-C:\Users\lenovo\documents\visual studio 2010\Projects\WordKruti2Uni\WordKruti2Uni\obj\x86\Debug\WordKruti2Uni.pdb
-C:\Users\lenovo\Documents\Visual Studio 2010\Projects\WordKruti2Uni\WordKruti2Uni\obj\x86\Debug\WordKruti2Uni.SelectWordFile.resources
-C:\Users\lenovo\Documents\Visual Studio 2010\Projects\WordKruti2Uni\WordKruti2Uni\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\lenovo\Documents\Visual Studio 2010\Projects\WordKruti2Uni\WordKruti2Uni\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\lenovo\Documents\Visual Studio 2010\Projects\WordKruti2Uni\WordKruti2Uni\bin\Debug\WordKruti2Uni.exe.config
-C:\Users\lenovo\Documents\Visual Studio 2010\Projects\WordKruti2Uni\WordKruti2Uni\obj\x86\Debug\ResGen.read.1.tlog
-C:\Users\lenovo\Documents\Visual Studio 2010\Projects\WordKruti2Uni\WordKruti2Uni\obj\x86\Debug\ResGen.write.1.tlog
+D:\wordkruti2uni\wordkruti2uni\WordKruti2Uni\bin\Debug\WordKruti2Uni.exe.config
+D:\wordkruti2uni\wordkruti2uni\WordKruti2Uni\obj\x86\Debug\WordKruti2Uni.csproj.ResolveComReference.cache
+D:\wordkruti2uni\wordkruti2uni\WordKruti2Uni\obj\x86\Debug\WordKruti2Uni.exe
+D:\wordkruti2uni\wordkruti2uni\WordKruti2Uni\obj\x86\Debug\WordKruti2Uni.pdb

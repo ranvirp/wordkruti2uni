@@ -8,6 +8,8 @@ using System.Text;
 using System.Windows.Forms;
 using Microsoft.Office.Interop.Word;
 using System.Text.RegularExpressions;
+using System.IO;
+using System.Diagnostics;
 namespace WordKruti2Uni
 {
     public partial class SelectWordFile : Form
@@ -34,6 +36,7 @@ namespace WordKruti2Uni
             {
                 string filename = openFileDialog1.FileName;
                 textBox1.Text = filename;
+                label4.Text = "";
                 //string savefilename = filename + "_unicode";
 
 
@@ -43,24 +46,59 @@ namespace WordKruti2Uni
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+            label4.Text = "";
             Kruti2uni kr = new Kruti2uni();
              Document doc;
-             Microsoft.Office.Interop.Word.Application app = new Microsoft.Office.Interop.Word.Application();
+             
              try
              {
+                 try
+                 {
+                     FileStream fs;
+                     fs =
+                          File.Open(this.textBox1.Text,
+    FileMode.Open, FileAccess.Read, FileShare.None);
+                     fs.Close();
+                     fs.Dispose();
+                     fs = null;
+                 }
+                 catch (Exception ex)
+                 {
+                     
+                     MessageBox.Show("File already open. Trying to close. Shall close all other open documents. Please save them.");
+                     try
+                     {
+                         Process[] pro = Process.GetProcessesByName("WINWORD");
+                         if (pro.Length > 0)
+                         {
+                             foreach (Process p in pro)
+                             {
+                                 p.Kill();
+                             }
+                         }
+                     }
+                     catch (Exception ex1) { }
+                 }
+                 Microsoft.Office.Interop.Word.Application app = new Microsoft.Office.Interop.Word.Application();
                  doc = app.Documents.Open(this.textBox1.Text, Visible:true);
                  string filename = System.IO.Path.GetFileNameWithoutExtension(this.textBox1.Text);
                  string directory = System.IO.Path.GetDirectoryName(this.textBox1.Text);
+                 label4.Text = "Processing ..";
+                 //Processing prc = new Processing();
+                // prc.ShowDialog();
                  WordParse.wordParse(doc, kr);
                 // doc.Save();
                  String str = directory + "\\" + filename + "_unicode" + ".doc";
                    doc.SaveAs(str);
                  doc.Close();
-                 label4.Text = "Output saved at " + str;
+                // prc.Close();
+                 label4.Text = "Output saved at:  "+str;
+                
+                 
                  //app.Quit();
              }
-             catch (Exception ex) { MessageBox.Show("Error in execution " + ex.Message);  }
+             catch (Exception ex) {
+                 MessageBox.Show("Error in execution: " + ex.Message);  }
             /*
              try
              {
@@ -122,9 +160,21 @@ namespace WordKruti2Uni
             
         }
 
-        private void requirementsToolStripMenuItem_Click(object sender, EventArgs e)
-        {
+       
 
+        private void helpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Please select a file written in Kruti Dev 010 and then hit submit. Output file is saved in the same folder with _unicode added.");
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("A small utility to convert Kruti Dev 010 text inside a word file into Kruti Dev. For any issues mail to ranvir.prasad@gmail.com");
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            
         }
     }
 }
